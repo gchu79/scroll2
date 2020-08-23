@@ -15,14 +15,14 @@ header{
     z-index:110;
 }
 h1 {
-    font-size: 3vh;  
+    font-size: min(3vh, 20px);   
     font-weight: bold;
     border: 2px solid black;
     text-align: center
 }
 
 h2 {
-    font-size: 2vh;  
+    font-size: min(2vh, 16px);  
     text-align: center;
     font-weight: normal
 }
@@ -63,7 +63,7 @@ h2 {
     align-content:center;
     min-height: 25vh;
     grid-template-columns: repeat(1,200px);
-    grid-template-rows: minmax(60px,auto) repeat(40,32px);
+    grid-template-rows: minmax(60px,auto) repeat(40,28px);
 }
 
 .output-grid > output {
@@ -138,7 +138,7 @@ h2 {
     align-content:center;
     min-height: 25vh;
     grid-template-columns: repeat(3,200px);
-    grid-template-rows: minmax(60px,auto) repeat(40,32px);
+    grid-template-rows: minmax(60px,auto) repeat(40,28px);
 }
 
 .bible-grid > button {
@@ -171,7 +171,7 @@ h2 {
     align-content:center;
     min-height: 25vh;
     grid-template-columns: repeat(1,150px);
-    grid-template-rows: minmax(60px,auto) repeat(40,32px);
+    grid-template-rows: minmax(60px,auto) repeat(40,28px);
 }
 .number-grid > blank {
     font-size: 1rem;
@@ -203,7 +203,7 @@ h2 {
     align-content:center;
     min-height: 25vh;
     grid-template-columns: repeat(1,150px);
-    grid-template-rows: minmax(60px,auto) repeat(40,32px);
+    grid-template-rows: minmax(60px,auto) repeat(40,28px);
 }
 .version-grid > blank {
     font-size: 1rem;
@@ -258,7 +258,7 @@ h2 {
 footer {
     width: 100%;
     background: #00AAFF;
-    font-size: 2vh; 
+    font-size: min(2vh, 16px);
     text-align: center;    
     position: fixed; 
     bottom: 0;
