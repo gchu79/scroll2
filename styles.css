@@ -30,9 +30,9 @@ h2 {
 .content {
     position:relative;
     height: 100%;
-    width:90%; /* Sizing - any length */
+    width: 100%; /* Sizing - any length */
     padding:80px 0 20px 0; /* Header height and footer height */
-    margin:0 auto 0 auto; /* Center content */
+    margin:0 10px 0 10px; /* Center content */
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
     -o-box-sizing:border-box;
@@ -43,7 +43,7 @@ h2 {
 .sidebar2 {
     background:#45ff00;
     height:95%;
-    width: 50%;
+    width: 40%;
     top:0;
     padding-top:50px;
     position:absolute;
@@ -243,7 +243,7 @@ h2 {
 #scrollable2 {
     height: 95%;
     background:#ff00f5;
-    width: 50%;
+    width: 60%;
     margin-left: 0px;
     margin-right: 0px;
     overflow:auto;
@@ -252,8 +252,6 @@ h2 {
     -o-box-sizing:border-box;
     -ms-box-sizing:border-box;
     box-sizing:border-box;  
-    padding-left: 50px;
-    align-content:center;
 }
 
 footer {
