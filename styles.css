@@ -63,7 +63,7 @@ h2 {
     align-content:center;
     min-height: 25vh;
     grid-template-columns: repeat(1,200px);
-    grid-template-rows: minmax(60px,auto) repeat(40,28px);
+    grid-template-rows: minmax(60px,auto) repeat(22,28px);
 }
 
 .output-grid > output {
@@ -171,7 +171,7 @@ h2 {
     align-content:center;
     min-height: 25vh;
     grid-template-columns: repeat(1,150px);
-    grid-template-rows: minmax(60px,auto) repeat(40,28px);
+    grid-template-rows: minmax(60px,auto) repeat(22,28px);
 }
 .number-grid > blank {
     font-size: 1rem;
@@ -203,7 +203,7 @@ h2 {
     align-content:center;
     min-height: 25vh;
     grid-template-columns: repeat(1,150px);
-    grid-template-rows: minmax(60px,auto) repeat(40,28px);
+    grid-template-rows: minmax(60px,auto) repeat(22,28px);
 }
 .version-grid > blank {
     font-size: 1rem;
@@ -247,6 +247,7 @@ h2 {
     margin-left: 0px;
     margin-right: 0px;
     overflow:auto;
+    padding-top: 2vh;
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
     -o-box-sizing:border-box;
