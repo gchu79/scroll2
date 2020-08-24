@@ -62,7 +62,7 @@ h2 {
     justify-content:flex-start;
     align-content:center;
     min-height: 25vh;
-    grid-template-columns: repeat(1,200px);
+    grid-template-columns: repeat(1,180px);
     grid-template-rows: minmax(60px,auto) repeat(22,28px);
 }
 
