@@ -95,7 +95,7 @@ document.querySelectorAll('.output-grid [select-option]').forEach(item => {
         }        
         
         
-         if (item.innerHTML === 'BlueLetterBible.Org') {
+         if (item.innerHTML === 'BlueLetterBible') {
             console.log(window.idx);
             window.open("https://www.blueletterbible.org");            
         }        
