@@ -41,9 +41,9 @@ h2 {
 }
 
 .sidebar2 {
-    background:#00AAFF;
+    background:#0014ff;
     height:100%;
-    width: 50%;
+    width: 45%;
     top:0;
     padding-top:4vh;
     position:absolute;
@@ -242,8 +242,8 @@ h2 {
 
 #scrollable2 {
     height: 100%;
-    background:#00AAFF;
-    width: 50%;
+    background:#ff00b1;
+    width: auto;
     margin-left: 0px;
     margin-right: 0px;
     overflow:auto;
@@ -253,7 +253,7 @@ h2 {
     -o-box-sizing:border-box;
     -ms-box-sizing:border-box;
     box-sizing:border-box; 
-    padding-left: 60px;
+    padding-left: 30px;
 }
 
 footer {
