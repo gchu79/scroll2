@@ -41,8 +41,8 @@ h2 {
 }
 
 .sidebar2 {
-    background:#0014ff;
-    height:100%;
+    background:#00AAFF;
+    height:97%;
     width: 45%;
     top:0;
     padding-top:4vh;
@@ -54,7 +54,7 @@ h2 {
     box-sizing:border-box;
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: 3fr auto 1fr auto 1fr;    
+    grid-template-columns: 3fr auto 1fr auto 1fr; 
 }
 
 .output-grid {
@@ -64,6 +64,7 @@ h2 {
     min-height: 25vh;
     grid-template-columns: repeat(1,160px);
     grid-template-rows: minmax(60px,auto) repeat(22,28px);
+
 }
 
 .output-grid > output {
@@ -73,10 +74,11 @@ h2 {
     border: 1px solid black;
     align-content:center;
     font-weight: bold;
-    color: blue;
+    color: #00AAFF;
     text-align: center;
     outline: none;
     background-color: rgba(255,255,255,.5);
+    
 }
 
 .output-grid > section {
@@ -108,7 +110,7 @@ h2 {
 
 .sidebar1 {
     background:#00AAFF;
-    height:95%;
+    height:100%;
     width: 0%;
     top:0;
     padding-top:60px;
@@ -139,6 +141,8 @@ h2 {
     min-height: 25vh;
     grid-template-columns: repeat(3,150px);
     grid-template-rows: minmax(60px,auto) repeat(40,28px);
+    margin-left: auto;
+    margin-right: 50%;
 }
 
 .bible-grid > button {
@@ -204,6 +208,8 @@ h2 {
     min-height: 25vh;
     grid-template-columns: repeat(1,125px);
     grid-template-rows: minmax(60px,auto) repeat(22,28px);
+
+
 }
 .version-grid > blank {
     font-size: 1rem;
@@ -234,6 +240,8 @@ h2 {
     border: 1px solid black;
     outline: none;
     background-color: rgba( 191, 176, 176, 0.75 );
+
+
 }
 
 .version-grid > button:hover {
@@ -242,10 +250,10 @@ h2 {
 
 #scrollable2 {
     height: 100%;
-    background:#ff00b1;
+    background:#00AAFF;
     width: auto;
     margin-left: 0px;
-    margin-right: 0px;
+    margin-right: auto;
     overflow:auto;
     padding-top: 2vh;
     -moz-box-sizing:border-box;
