@@ -170,7 +170,7 @@ h2 {
     justify-content:flex-start;
     align-content:center;
     min-height: 25vh;
-    grid-template-columns: repeat(1,150px);
+    grid-template-columns: repeat(1,125px);
     grid-template-rows: minmax(60px,auto) repeat(22,28px);
 }
 .number-grid > blank {
@@ -202,7 +202,7 @@ h2 {
     justify-content:flex-end;
     align-content:center;
     min-height: 25vh;
-    grid-template-columns: repeat(1,150px);
+    grid-template-columns: repeat(1,125px);
     grid-template-rows: minmax(60px,auto) repeat(22,28px);
 }
 .version-grid > blank {
