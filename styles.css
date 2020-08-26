@@ -28,9 +28,10 @@ h2 {
 }
 
 .content {
+    background:#00AAFF;
     position:relative;
     height: 94%;
-    width: 100%; /* Sizing - any length */
+    width: 55%; /* Sizing - any length */
     padding:80px 0 20px 0; /* Header height and footer height */
     margin:0 10px 0 10px; /* Center content */
     -moz-box-sizing:border-box;
@@ -42,11 +43,12 @@ h2 {
 
 .sidebar2 {
     background:#00AAFF;
-    height:97%;
+    height:94%;
     width: 45%;
     top:0;
-    padding-top:4vh;
+    padding:100px 0 20px 0;
     position:absolute;
+    margin:0 10px 0 10px;    
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
     -o-box-sizing:border-box;
@@ -60,7 +62,7 @@ h2 {
 .output-grid {
     display: grid;
     justify-content:flex-start;
-    align-content:center;
+    align-content:flex-start;
     min-height: 25vh;
     grid-template-columns: repeat(1,160px);
     grid-template-rows: minmax(60px,auto) repeat(22,28px);
@@ -137,12 +139,12 @@ h2 {
 .bible-grid {
     display: grid;
     justify-content:flex-start;
-    align-content:center;
+    align-content:flex-start;
     min-height: 25vh;
     grid-template-columns: repeat(3,150px);
     grid-template-rows: minmax(60px,auto) repeat(40,28px);
     margin-left: auto;
-    margin-right: 50%;
+    margin-right: 10%;
 }
 
 .bible-grid > button {
@@ -172,7 +174,7 @@ h2 {
 .number-grid {
     display: grid;
     justify-content:flex-start;
-    align-content:center;
+    align-content:flex-start;
     min-height: 25vh;
     grid-template-columns: repeat(1,110px);
     grid-template-rows: minmax(60px,auto) repeat(22,28px);
@@ -204,7 +206,7 @@ h2 {
 .version-grid {
     display: grid;
     justify-content:flex-end;
-    align-content:center;
+    align-content:flex-start;
     min-height: 25vh;
     grid-template-columns: repeat(1,125px);
     grid-template-rows: minmax(60px,auto) repeat(22,28px);
