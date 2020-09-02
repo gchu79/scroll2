@@ -31,7 +31,7 @@ h2 {
     background:#00AAFF;
     position:relative;
     height: 94%;
-    width: 55%; /* Sizing - any length */
+    width: 57%; /* Sizing - any length */
     padding:80px 0 20px 0; /* Header height and footer height */
     margin:0 10px 0 10px; /* Center content */
     -moz-box-sizing:border-box;
@@ -75,7 +75,7 @@ h2 {
     font: 1.25rem Arial, san-serif;
     border: 1px solid black;
     align-content:center;
-    font-weight: bold;
+    font-weight: normal;
     color: #0e0ec7;
     text-align: center;
     outline: none;
@@ -141,7 +141,7 @@ h2 {
     justify-content:flex-start;
     align-content:flex-start;
     min-height: 25vh;
-    grid-template-columns: repeat(3,150px);
+    grid-template-columns: repeat(3,162px);
     grid-template-rows: minmax(60px,auto) repeat(40,28px);
     margin-left: auto;
     margin-right: 10%;
@@ -176,7 +176,7 @@ h2 {
     justify-content:flex-start;
     align-content:flex-start;
     min-height: 25vh;
-    grid-template-columns: repeat(1,110px);
+    grid-template-columns: repeat(1,105px);
     grid-template-rows: minmax(60px,auto) repeat(22,28px);
 }
 .number-grid > blank {
@@ -208,7 +208,7 @@ h2 {
     justify-content:flex-end;
     align-content:flex-start;
     min-height: 25vh;
-    grid-template-columns: repeat(1,125px);
+    grid-template-columns: repeat(1,115px);
     grid-template-rows: minmax(60px,auto) repeat(22,28px);
 
 
@@ -257,7 +257,7 @@ h2 {
     margin-left: 0px;
     margin-right: auto;
     overflow:auto;
-    padding-top: 2vh;
+    padding-top: 3vh;
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
     -o-box-sizing:border-box;
@@ -274,4 +274,11 @@ footer {
     position: fixed; 
     bottom: 0;
     height: 5%;
+}
+
+@media all and (min-device-width: 375px ) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    footer {
+        background: #00ff0a;
+    }
+    
 }
