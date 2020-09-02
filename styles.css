@@ -275,3 +275,34 @@ footer {
     bottom: 0;
     height: 5%;
 }
+
+@media only screen and (max-width: 667px) {
+    .bible-grid {
+        grid-template-columns: repeat(3,100px);
+    } 
+    .bible-grid > button {
+        font-size: 0.8rem;
+    }
+    .bible-grid > section {    
+        font-size: 0.8rem;
+    }    
+    .version-grid {   
+        grid-template-columns: repeat(1,75px);
+    }
+    .version-grid > button {
+        font-size: 0.8rem;
+    }
+    .version-grid > section {    
+        font-size: 0.8rem;        
+    }
+    .number-grid {   
+        grid-template-columns: repeat(1,75px);
+    }
+    .number-grid > button {
+        font-size: 0.8rem;
+    }
+    .number-grid > section {    
+        font-size: 0.8rem;    
+    }
+}
+    
