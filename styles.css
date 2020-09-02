@@ -281,40 +281,64 @@ footer {
         grid-template-columns: repeat(3,100px);
     } 
     .bible-grid > button {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .bible-grid > section {    
-        font-size: 0.8rem;
-    }    
+        font-size: 0.7rem;
+    } 
+    .bible-grid > blank {    
+        font-size: 0.7rem;
+    }     
     .version-grid {   
         grid-template-columns: repeat(1,75px);
     }
     .version-grid > button {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .version-grid > section {    
-        font-size: 0.8rem;        
+        font-size: 0.7rem;        
     }
+    .version-grid > blank {    
+        font-size: 0.7rem;
+    }    
     .number-grid {   
         grid-template-columns: repeat(1,75px);
     }
     .number-grid > button {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .number-grid > section {    
-        font-size: 0.8rem;    
+        font-size: 0.7rem;    
     }
+    .number-grid > blank {    
+        font-size: 0.7rem;
+    }    
     .output-grid {   
         grid-template-columns: repeat(1,75px);
     }
     .output-grid > button {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .output-grid > section {    
-        font-size: 0.8rem;    
+        font-size: 0.7rem;    
     }
     .output-grid > output {    
-        font-size: 0.8rem;    
+        font-size: 0.7rem;    
+    } 
+    .output-grid > blank {    
+        font-size: 0.7rem;
     }    
+    
+    h1 {
+    font-size: min(2vh, 12px);   
+    }
+
+    h2 {
+        font-size: min(1.2vh, 12px);
+    }
+    footer {
+        font-size: min(1.2vh, 12px);        
+    }
+    
 }
     
