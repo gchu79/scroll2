@@ -279,6 +279,7 @@ footer {
 @media only screen and (max-width: 667px) {
     .bible-grid {
         grid-template-columns: repeat(3,100px);
+        grid-template-rows: minmax(60px,auto) repeat(40,20px);        
     } 
     .bible-grid > button {
         font-size: 0.7rem;
@@ -291,6 +292,7 @@ footer {
     }     
     .version-grid {   
         grid-template-columns: repeat(1,75px);
+        grid-template-rows: minmax(60px,auto) repeat(40,20px);          
     }
     .version-grid > button {
         font-size: 0.7rem;
@@ -303,6 +305,7 @@ footer {
     }    
     .number-grid {   
         grid-template-columns: repeat(1,75px);
+        grid-template-rows: minmax(60px,auto) repeat(40,20px);          
     }
     .number-grid > button {
         font-size: 0.7rem;
@@ -315,6 +318,7 @@ footer {
     }    
     .output-grid {   
         grid-template-columns: repeat(1,75px);
+        grid-template-rows: minmax(60px,auto) repeat(40,20px);          
     }
     .output-grid > button {
         font-size: 0.7rem;
