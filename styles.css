@@ -304,5 +304,17 @@ footer {
     .number-grid > section {    
         font-size: 0.8rem;    
     }
+    .output-grid {   
+        grid-template-columns: repeat(1,75px);
+    }
+    .output-grid > button {
+        font-size: 0.8rem;
+    }
+    .output-grid > section {    
+        font-size: 0.8rem;    
+    }
+    .output-grid > output {    
+        font-size: 0.8rem;    
+    }    
 }
     
