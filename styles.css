@@ -281,8 +281,8 @@ footer {
 
 @media only screen and (max-width: 667px) {
     .bible-grid {
-        grid-template-columns: repeat(3,80px);
-        grid-template-rows: minmax(60px,auto) repeat(40,25px);        
+        grid-template-columns: repeat(3,70px);
+        grid-template-rows: minmax(60px,auto) repeat(40,30px);        
     } 
     .bible-grid > button {
         font-size: 0.6rem;
@@ -294,8 +294,8 @@ footer {
         font-size: 0.6rem;
     }     
     .version-grid {   
-        grid-template-columns: repeat(1,70px);
-        grid-template-rows: minmax(60px,auto) repeat(40,25px);          
+        grid-template-columns: repeat(1,60px);
+        grid-template-rows: minmax(60px,auto) repeat(40,30px);          
     }
     .version-grid > button {
         font-size: 0.6rem;
@@ -307,8 +307,8 @@ footer {
         font-size: 0.6rem;
     }    
     .number-grid {   
-        grid-template-columns: repeat(1,70px);
-        grid-template-rows: minmax(60px,auto) repeat(40,25px);          
+        grid-template-columns: repeat(1,60px);
+        grid-template-rows: minmax(60px,auto) repeat(40,30px);          
     }
     .number-grid > button {
         font-size: 0.6rem;
@@ -324,8 +324,8 @@ footer {
         font-size:1rem;
     }    
     .output-grid {   
-        grid-template-columns: repeat(1,70px);
-        grid-template-rows: minmax(60px,auto) repeat(40,25px);          
+        grid-template-columns: repeat(1,60px);
+        grid-template-rows: minmax(60px,auto) repeat(40,30px);          
     }
     .output-grid > button {
         font-size: 0.6rem;
