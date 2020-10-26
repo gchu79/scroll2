@@ -201,7 +201,7 @@ h2 {
     background-color: rgba(136, 124, 124, 0.75);
 }
 .number-grid > button[operation-number] {
-    font-weight: bold;
+    font-weight: normal;
     font-size:1.5rem;
 }
 .number-grid > button:hover {
@@ -285,39 +285,39 @@ footer {
         grid-template-rows: minmax(60px,auto) repeat(40,20px);        
     } 
     .bible-grid > button {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
     .bible-grid > section {    
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     } 
     .bible-grid > blank {    
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }     
     .version-grid {   
         grid-template-columns: repeat(1,75px);
-        grid-template-rows: minmax(60px,auto) repeat(40,20px);          
+        grid-template-rows: minmax(60px,auto) repeat(40,25px);          
     }
     .version-grid > button {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
     .version-grid > section {    
-        font-size: 0.7rem;        
+        font-size: 0.6rem;        
     }
     .version-grid > blank {    
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }    
     .number-grid {   
         grid-template-columns: repeat(1,75px);
-        grid-template-rows: minmax(60px,auto) repeat(40,20px);          
+        grid-template-rows: minmax(60px,auto) repeat(40,25px);          
     }
     .number-grid > button {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
     .number-grid > section {    
-        font-size: 0.7rem;    
+        font-size: 0.6rem;    
     }
     .number-grid > blank {    
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }  
     .number-grid > button[operation-number] {
         font-weight: bold;
@@ -325,19 +325,19 @@ footer {
     }    
     .output-grid {   
         grid-template-columns: repeat(1,75px);
-        grid-template-rows: minmax(60px,auto) repeat(40,20px);          
+        grid-template-rows: minmax(60px,auto) repeat(40,25px);          
     }
     .output-grid > button {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
     .output-grid > section {    
-        font-size: 0.7rem;    
+        font-size: 0.6rem;    
     }
     .output-grid > output {    
-        font-size: 0.7rem;    
+        font-size: 0.6rem;    
     } 
     .output-grid > blank {    
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     } 
     
     h1 {
